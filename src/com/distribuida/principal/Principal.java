@@ -25,51 +25,51 @@ public class Principal {
 		Autor autor = context.getBean("autor",Autor.class);
 		DatosEmpresa datosEmpresa= context.getBean("datosEmpresa", DatosEmpresa.class);
 		
-		//CLIENTE
+		//CLIENTE 
 		cliente.setIdCliente(1);
-		cliente.setCedula("1751286087");
-		cliente.setNombre("Dimas");
-		cliente.setApellido("Vera");
-		cliente.setDireccion("Quito, Buenavista");
+		cliente.setCedula("1714765102");
+		cliente.setNombre("Rosa");
+		cliente.setApellido("Lucero");
+		cliente.setDireccion("Quito, Cumbaya");
 		cliente.setTelefono("098745632");
-		cliente.setCorreo("dimasv@hotmail.com");
+		cliente.setCorreo("lucilarosa1978@gmail.com");
 		
 		//FACTURA
 		factura.setIdFactura(1);
 		factura.setNumFactura("001");
-		factura.setFecha("29/11/2023");
-		factura.setTotalNeto(17.85);
+		factura.setFecha("19/11/2023");
+		factura.setTotalNeto(15.85);
 		factura.setIva(1.12);
 		factura.setTotal(factura.getTotalNeto()*factura.getIva());
 		
 		//LIBRO
 		libro.setIdLibro(1);
-		libro.setTitulo("OPIO EN LAS NUBES");
-		libro.setEditorial("Santillana");
+		libro.setTitulo("Bajo la misma estrella");
+		libro.setEditorial("Ryck Yancey");
 		libro.setNumPaginas(320);
 		libro.setEdicion(2);
 		libro.setIdioma("Español");
-		libro.setFechaPublicacion("2010");
-		libro.setDescripcion("Es una novela que se basa en las experiencias y estilo de vida de un grupo de adictos a las drogas y fiestas");
+		libro.setFechaPublicacion("2012");
+		libro.setDescripcion(" La historia se centra en dos adolescentes con cáncer, Hazel Grace Lancaster y Augustus Waters, y ha sido muy popular desde su lanzamiento. Además del libro, en 2014 se lanzó una adaptación cinematográfica basada en la novela.");
 		libro.setNumEjemplares(400);
 		libro.setPortada("Original");
-		libro.setPresentacion("La historia es contada por tres narradores en un mundo paralelo que recrea la fantasía de una época surrealista enmarcada en una ciudad tan propia como la Bogotá de esos años");
-		libro.setPrecio(15.75);
+		libro.setPresentacion(" La historia se centra en dos adolescentes con cáncer, Hazel Grace Lancaster y Augustus Waters, y ha sido muy popular desde su lanzamiento. Además del libro, en 2014 se lanzó una adaptación cinematográfica basada en la novela.");
+		libro.setPrecio(15.85);
 		
 		
 		//CATEGORIA
 		categoria.setIdCategoria(1);
-		categoria.setCategoria("Aventura");
-		categoria.setDescripcion("Opio en las nubes");
+		categoria.setCategoria("Romance");
+		categoria.setDescripcion("Bajo la miosma estrella");
 		
 		//AUTOR
 		autor.setIdAutor(1);
-		autor.setNombre("Rafael2");
-		autor.setApellido("Chaparro Madiedo");
-		autor.setPais("Colombia");
-		autor.setDireccion("Bogota");
-		autor.setTelefono("56793");
-		autor.setCorreo("MadiedoCha@hotmail.com");
+		autor.setNombre("John");
+		autor.setApellido("Green");
+		autor.setPais("Estados Unidos");
+		autor.setDireccion("Indianapolis, Indiana");
+		autor.setTelefono("7894510");
+		autor.setCorreo("johngreen12@hotmail.com");
 		
 		
 		//IMPRIMIR
